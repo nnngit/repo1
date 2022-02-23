@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo "My first PHP script!";
+
+$CONTENT=ARRAY(
+'TABNAME'=>'NEW TAB CREATION ,BLOCKS 1 TO 7 CREATION',
+'CONTENT1'=>array('BLOCK1=BLOCK1 DATA',"Peter"=>35, '234',"Ben"=>37, "Joe"=>43,'123'),
+'CONTENT2'=>array('BLOCK2=BLOCK2 DATA',"Peter"=>35, "Ben"=>37, "Joe"=>43),
+'CONTENT3'=>array('BLOCK3=FEATURE CONTENT DATA',"Peter"=>32, "Ben"=>37, "Joe"=>43),
+'CONTENT4'=>array('BLOCK4=FEATURE LIST ICON DATA',"Peter"=>35, "Ben"=>37, "Joe"=>43),
+'CONTENT5'=>array('BLOCK5=ADVANTAGE ROI DATA',"Peter"=>35, "Ben"=>37, "Joe"=>43),
+'CONTENT6'=>array('BLOCK6=CONNECT THE AUDIENCE DATA',"Peter"=>32, "Ben"=>37, "Joe"=>43),
+'CONTENT7'=>array('BLOCK7=COLLAPSECARD DATA',"Peter"=>32, "Ben"=>37, "Joe"=>43),
+);
+echo json_encode($CONTENT);
+
+?> 
+
+
+
+</body>
+</html>
